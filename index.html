@@ -1,0 +1,53 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div id="heading" class="col-xs-12 header_div_text">
+    <h1 style="font-family: 'Short Stack', cursive;; background-color: #1572A1; text-align: center; color: white;">Sound Controlled Aliens</h1>
+    <h4 style="font-family: 'Short Stack', cursive;; background-color: #1572A1; text-align: center; color: white;">Clap,Say 'Dance' or Bell to make the aliens move</h4>
+    </div>
+
+    <div id="main_div">
+<center>
+ <button type="button" onclick="startClassification()">Start</button><br>
+  <label id="result_label" style="font-family: 'Short Stack', cursive;">I can hear - </label><br>
+  <label id="accuracy_label" style="font-family: 'Short Stack', cursive;">Accuracy - </label>
+<br>
+<img src="aliens-01.png" id="alien-1" width="300" height="300">
+<img src="aliens-02.png" id="alien-2" width="300" height="300">
+<img src="aliens-03.png" id="alien-3" width="300" height="300">
+<img src="aliens-04.png" id="alien-4" width="300" height="300">
+
+</center>
+
+    </div>
+    
+<div id="footer_div">
+  Developed by : Tvisha 
+</div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
